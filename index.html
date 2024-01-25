@@ -8,29 +8,29 @@
     <!--FUENTE-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
-     <!--Bootstrap-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Questrial&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+    <!--Bootstrap-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!--ICONOS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-
 
     <title>Puerto Iguazú</title>
 </head>
 <body>
     <div class="portada">
-      <h1>PUERTO IGUAZU</h1>
+      <img src="imagenes/logo iguazu.png" alt="" srcset="" width="50%" height="60%">
       <h2 class="subtitulo">Transportes</h2>
       <a href="https://web.whatsapp.com/" target="_blank"><img src="imagenes/icons8-whatsapp-96.png" alt="Logo" class="logo-wp"></a>
     </div>
 
     <div class="text-center top-header mt-4 mb-4">
-            <h1>PUERTO IGUAZU</h1>
-            <h2 class="subtitulo">Transportes</h2>
+      <img src="imagenes/logo iguazu.png" alt="" srcset="" width="200px"  height="100px">
+            <h2 class="subtitulo-icono">Transportes</h2>
     </div>    
-    <hr class="centrado">
-    <nav class="navbar navbar-expand-md navbar-brand mb-5 mt-4">
+    <hr class="centrado shadow">
+    <nav class="navbar navbar-expand-md navbar-brand mb-5 mt-4 navegation">
         <div class="container mb-4">        
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav ">
                 <ul class="navbar-nav h4">
@@ -112,12 +112,12 @@
     </div>  
 
     <!--------------------------------FORMULARIO-------------------------------------------------------->
-    <div class="container mt-5 p-3 bg-success rounded mb-3" id="ir-a-contactenos">
+    <div class="container mt-5 p-3 formulario rounded mb-3" id="ir-a-contactenos">
       <div class="row border-3">
        <!--Columna 1: Detalles del Lugar -->
-        <div class="col-md-6">
-          <h2>Contactanos</h2>
-          <h6 class="mb-4"><i class="far fa-clock pr-1"></i> Las 24 hs</h6>
+        <div class="col-md-6 mt-5">
+          <h2 class="fs-5 fw-normal subtitulo ">Contactanos</h2>
+          <h6 class="mb-4 subtitulo mt-4"><i class="far fa-clock pr-1"></i> Las 24 hs</h6>
           <p class="mb-4"><img src="imagenes/phone-handset_icon-icons.com_48252.png" class="icono rounded pr-2" style="width: 18px;"></img>(+54) 112558888</p>
           <p><i class="far fa-envelope ml-1"></i>iguazutras@gmail.com</p>
         </div>
@@ -125,35 +125,69 @@
         <div class="col-md-6">
             <form>
                 <div class="form-group">
-                  <label for=""></label>
+                  <br>
                   <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre y apellido" name="nombreApellido" required>
                 </div>
                 <div class="row g-3">
                   <div class="col-md-6">
-                    <label for=""></label>
+                    <br>
                     <input type="number" class="form-control" placeholder="Telefono" id="telefono" required maxlength="15">
                   </div>
                   <div class="col-md-6">
-                    <label for=""></label>
-                    <input type="text" class="form-control" placeholder="Ciudad" id="ciudad" required>
+                    <br>
+                    <input type="text" class="form-control" placeholder="Ciudad" id="ciudad" list="ciudades" required>
+                    <datalist id="ciudades">   
+                        <option value="Buenos Aires">
+                        <option value="Ciudad de México">
+                        <option value="São Paulo">
+                        <option value="Bogotá">
+                        <option value="Lima">
+                        <option value="Ciudad de Guatemala">
+                        <option value="Caracas">
+                        <option value="Quito">
+                        <option value="La Paz">
+                        <option value="San José">
+                        <option value="Montevideo">
+                        <option value="Asunción">
+                        <option value="Santiago">
+                        <option value="Lima">
+                        <option value="San Salvador">
+                    </datalist>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for=""></label>
+                 <br>
                   <input type="email" class="form-control" placeholder="Correo Electrónico" id="correo" name="correo" required>
                 </div>
                 <div class="form-group">
-                  <label for=""></label>
+                  <br>
                   <textarea class="form-control" id="mensaje" placeholder="Mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary mt-2" id="btn-custom"><i class="far fa-paper-plane"></i> Enviar</button>                
+                <button type="submit" class="btn btn-outline-dark mt-2 boton" id="btn-custom"><i class="far fa-paper-plane"></i> Enviar</button>                
               </form>
           </div>
       </div>
     </div>
 
-    
-         
+    <!--------------------------FOOTER-------------------------->
+  
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-4">
+              <!-- Iconos de redes sociales de Icon Icons -->
+              <a href="https://es-la.facebook.com/" target="_blank" class="social-icons"><img src="imagenes/Facebook_icon-icons.com_55914.png"  alt="Facebook"></a>
+              <a href="https://twitter.com/" target="_blank" class="social-icons"><img src="imagenes/twitter_x_new_logo_x_icon_256077 (1).png" target="_blank" alt="Twitter"></a>
+              <a href="https://www.instagram.com/" target="_blank" class="social-icons"><img src="imagenes/instagram_icon_125245 (2).png" alt="Instagram"></a>
+          </div>
+          <div class="col-md-6 text-end mt-4 ">
+            <!-- Texto de copyright -->
+            <p>&copy; 2024. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
 
 
 
