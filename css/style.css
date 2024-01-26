@@ -58,6 +58,10 @@ h2{
     left: 50%;
   
 }
+
+.turismo{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 .subtitulo-icono{
     color: #A3E2B2;
     font-family: 'Questrial', sans-serif;
@@ -111,7 +115,18 @@ footer {
     .services .card {
         width: 20rem; 
         margin: 0 auto;
-      }
+    }
+    
+    .navegation{
+        text-align: center !important;
+        justify-content: center !important;        
+    }
+
+    .navbar{
+        padding-left: 3rem; 
+        
+    }
+
   }
 
   @media (min-width: 500px){
@@ -156,3 +171,5 @@ footer {
         margin: 0 auto;
       }
   }
+
+ 
