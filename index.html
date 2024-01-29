@@ -19,6 +19,7 @@
     <title>Puerto Iguazú</title>
 </head>
 <body>
+  <!-------------------PORTADA------------------------->
     <div class="portada">
       <img src="imagenes/logo iguazu.png" alt="portada" srcset="" width="60%" height="60%">
       <h2 class="subtitulo">Transportes</h2>
@@ -123,7 +124,7 @@
         </div>
         <!--Columna 2: Datos del usuario -->
         <div class="col-md-6">
-            <form>
+            <form action="https://formsubmit.co/logarzonadiagisele@gmail.com" method="post" id="consult-form">
                 <div class="form-group">
                   <br>
                   <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre y apellido" name="nombreApellido" required>
@@ -163,8 +164,8 @@
                   <br>
                   <textarea class="form-control" id="mensaje" placeholder="Mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline-dark mt-2 boton" id="btn-custom"><i class="far fa-paper-plane"></i> Enviar</button>                
-              </form>
+                <button type="submit" value="Send" class="btn btn-outline-dark mt-2 boton" id="btn-custom" onclick="sendForm()"><i class="far fa-paper-plane"></i> Enviar</button>                
+            </form>
           </div>
       </div>
     </div>
