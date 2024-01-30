@@ -134,6 +134,13 @@ footer {
     .navbar-brand {
         margin-bottom: 1rem;
     }
+    .centrar{
+        flex-direction: column;
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center !important;
+    }
 }
 @media (min-width: 700px) {
     .centrar{
