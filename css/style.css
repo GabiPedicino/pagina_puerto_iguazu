@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -33,10 +35,10 @@ h2{
 }
 
 .logo-wp{
-    position: absolute;
+    position: fixed;
     bottom: 0.625rem;
     right: 0.625rem;
-    width: 6.25rem;
+    width: 5rem;
     height: auto;
 }
 
