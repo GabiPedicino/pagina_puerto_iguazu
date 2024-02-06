@@ -8,6 +8,7 @@ body {
 
 }
 
+
 p{
     font-family: 'Questrial', sans-serif;
     color: #334A3F;
@@ -20,9 +21,13 @@ p{
     justify-content: center;
     align-items: center;   
     background-image: url(../imagenes/img_inicio_iguazu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: larger;
     color: #334A3F;
 }
+
+
 
 h1{
     margin-bottom: 1.25rem;
